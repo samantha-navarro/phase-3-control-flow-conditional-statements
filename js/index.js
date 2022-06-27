@@ -3,6 +3,10 @@
   password. If the username is "admin" or "ADMIN" and the password is "12345",
   return "Access granted". Otherwise, return "Access denied".
 */
+
+username = "admin"
+password = ""
+
 function adminLogin(username, password) {
   if ((username === "admin" || username === "ADMIN") && password === "12345") {
     return "Access granted";
